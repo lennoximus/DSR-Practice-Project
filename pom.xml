@@ -16,5 +16,20 @@
             <artifactId>poi</artifactId>
             <version>3.14</version>
         </dependency>
+        <dependency>
+            <groupId>com.j256.ormlite</groupId>
+            <artifactId>ormlite-android</artifactId>
+            <version>4.48</version>
+        </dependency>
+        <dependency>
+            <groupId>com.j256.ormlite</groupId>
+            <artifactId>ormlite-jdbc</artifactId>
+            <version>3.4</version>
+        </dependency>
+        <dependency> 
+            <groupId>org.mybatis</groupId> 
+            <artifactId>mybatis</artifactId> 
+            <version>3.2.8</version> 
+        </dependency>
     </dependencies>
 </project>
