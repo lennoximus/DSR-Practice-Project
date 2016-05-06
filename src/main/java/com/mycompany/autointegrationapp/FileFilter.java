@@ -16,6 +16,7 @@ public class FileFilter extends javax.swing.filechooser.FileFilter {
     }
     FileFilter(String ext, String description) {
         this.ext = ext;
+        this.description = ext.toString();
     }
     public boolean accept(File f) {
         if(f != null) {

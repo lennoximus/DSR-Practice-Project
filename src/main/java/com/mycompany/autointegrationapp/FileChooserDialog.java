@@ -20,6 +20,8 @@ public class FileChooserDialog extends JFrame {
         setBounds(0, 0, 500, 500);
         JFileChooser dialog = new JFileChooser();
         dialog.setFileFilter(new FileFilter(".xls", ""));
+        dialog.setApproveButtonText("Выбрать");
+        dialog.setDialogTitle("Выберите файл для загрузки");
         dialog.showOpenDialog(this);
         File file = dialog.getSelectedFile();
         setFileAbsolutePath(file.getAbsolutePath());
